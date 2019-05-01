@@ -1,28 +1,130 @@
+.confirm-middle {
+  text-align: center;
+}
+
+.confirm-button {
+  background-color: blue;
+  color:white;
+  padding: 10px;
+}
+
+.confirm-div-button {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.billing-header {
+  border-bottom: 1px solid lightgray;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 20px;
+  color: gray;
+}
+
+.billing-structure {
+  display: flex;
+  border-bottom: 1px solid lightgray;
+  padding-bottom:20px;
+}
+
+.billing-structure div {
+  flex: 1;
+}
+
+.row {
+  display: flex;
+  color: gray;
+  margin-bottom: 5px;
+}
+
+.billing-table-title {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.billing-inner-table {
+  font-size: 10px;
+}
+
+.row div {
+  flex: 1;
+}
 .App {
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.banner {
+  background-color: blue;
+  font-size: 20px;
   color: white;
+  margin-top: 30px;
+  padding:20px;
 }
 
-.App-link {
-  color: #61dafb;
+.table-header {
+  width:100%;
+  display: flex;
+  border-bottom: 1px solid lightgray;
+  margin-top: 50px;
+  padding-bottom: 10px;
 }
 
+.table-header div {
+  flex: 1 1 auto;
+  display: inline;
+}
+
+#larger-grow {
+  flex: 2;
+}
+
+.footer {
+  margin-top:50px;
+  display: flex;
+  font-size: 10px;
+  color: gray;
+}
+
+.footer div {
+  flex: 1 1 auto;
+}
+
+.product-outline {
+  height: 33%;
+  display: flex;
+  margin-top: 20px;
+  font-size: 10px;
+}
+
+.product-outline div {
+  margin: auto 0;
+  text-align: left;
+  flex: 1 1 auto;
+  color: gray;
+}
+.table {
+  margin: 0px 100px 0px 100px;
+}
+.product-box {
+  height: 100%;
+  border-bottom: 1px solid gray;
+}
+
+.height-transfer {
+  height:100%;
+}
+
+.checkout-btn-div {
+  text-align: right;
+}
+.checkout-btn {
+  background-color: blue;
+  color:white;
+  padding: 10px;
+  margin-top:50px;
+  margin-bottom:100px;
+  cursor: pointer;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
